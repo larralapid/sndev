@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="sys_cs_bot_messages">message_type!=hidden^EQ<item display_value="Hidden" endquery="false" field="message_type" goto="false" newquery="false" operator="!=" or="false" value="hidden"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow virtual agent admins to view bot messages for custom connections &amp; OOB connections on  sys_cs_channel.</description>
+        <name>sys_cs_bot_messages</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 05:00:02</sys_created_on>
+        <sys_id>72b68c309f1b10100d74d46d842e709e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>sys_cs_bot_messages</sys_name>
+        <sys_package display_value="Glide Conversation Server Adapters" source="com.glide.cs.adapter">cacc0b2f1b0b10100411bb751a4bcb39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_72b68c309f1b10100d74d46d842e709e</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edebb130000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_72b68c309f1b10100d74d46d842e709e</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:50</sys_created_on>
+        <sys_id>5dcf737c1b00f410faa4fd9c0a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edebb110000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_72b68c309f1b10100d74d46d842e709e</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.cs.adapter</previous_claim_name>
+        <previous_claim_scope>com.glide.cs.adapter</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:50</sys_created_on>
+        <sys_id>11cf737c1b00f410faa4fd9c0a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-09 16:58:56</sys_created_on>
+        <sys_id>78c7cb2573151010d70877186bf6a7ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_variable_value.value.workflow_report_viewer</sys_name>
+        <sys_package display_value="Workflow Runtime Engine" source="com.glideapp.workflow">86842e271b071010faa4fd9c0a4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_security_acl display_value="sys_variable_value.value">1cc74f2573151010d70877186bf6a77b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_78c7cb2573151010d70877186bf6a7ac</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:07</sys_updated_on>
+        <sys_user_role display_value="workflow_report_viewer" name="workflow_report_viewer">2f14cfa173151010d70877186bf6a79a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede14880000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_78c7cb2573151010d70877186bf6a7ac</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:07</sys_created_on>
+        <sys_id>b29fbb3c1b00f410faa4fd9c0a4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:07</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede14870000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_78c7cb2573151010d70877186bf6a7ac</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.workflow</previous_claim_name>
+        <previous_claim_scope>com.glideapp.workflow</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:07</sys_created_on>
+        <sys_id>769fbb3c1b00f410faa4fd9c0a4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:07</sys_updated_on>
+    </sys_claim>
+</record_update>

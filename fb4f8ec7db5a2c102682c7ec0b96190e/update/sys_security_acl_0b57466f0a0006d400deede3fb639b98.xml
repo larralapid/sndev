@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in sys_attachment_doc if the user has read access to the related sys_attachment record.</description>
+        <name>sys_attachment_doc</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var attachmentID = current.sys_attachment.toString();
+answer = false; //default
+
+//see if we already check the parent attachment access
+if (typeof attachmentCheckRead != "undefined") {
+	if (attachmentCheckRead.hasOwnProperty(attachmentID))
+		answer = attachmentCheckRead[attachmentID];
+	else {
+		//check access and save in global variable
+		var canRead = gs.hasRole('maint');
+		if (current.sys_attachment.state != 'not_available' && current.sys_attachment.state != 'pending')
+			canRead = current.sys_attachment.getRefRecord().canRead();
+		attachmentCheckRead[attachmentID] = canRead;
+		answer = canRead;
+	}
+}
+else {
+	//no global variable yet, create it and add property for this attachment
+	var canRead = gs.hasRole('maint');
+	if (current.sys_attachment.state != 'not_available' && current.sys_attachment.state != 'pending')
+		canRead = current.sys_attachment.getRefRecord().canRead();
+	var attachmentCheckRead = {};
+	attachmentCheckRead[attachmentID] = canRead;
+	GlideController.putGlobal("attachmentCheckRead", attachmentCheckRead);
+	answer = canRead;
+}
+]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2011-02-09 16:53:12</sys_created_on>
+        <sys_id>0b57466f0a0006d400deede3fb639b98</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>sys_attachment_doc</sys_name>
+        <sys_package display_value="Contextual Security Rules" source="com.glide.acl.service">6ce62a6f1b071010faa4fd9c0a4bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_0b57466f0a0006d400deede3fb639b98</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:28</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf4f5e0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0b57466f0a0006d400deede3fb639b98</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:28</sys_created_on>
+        <sys_id>2aef3b7c1b00f410faa4fd9c0a4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:28</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf4f5d0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0b57466f0a0006d400deede3fb639b98</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.acl.service</previous_claim_name>
+        <previous_claim_scope>com.glide.acl.service</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:28</sys_created_on>
+        <sys_id>eaef3b7c1b00f410faa4fd9c0a4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:28</sys_updated_on>
+    </sys_claim>
+</record_update>

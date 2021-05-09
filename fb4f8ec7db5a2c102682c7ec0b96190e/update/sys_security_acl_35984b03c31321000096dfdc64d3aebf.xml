@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="kb_knowledge_base.workflow">kb_version!=2^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Hide the workflow field when showing a Knowledge Base release version 2</description>
+        <name>kb_knowledge_base.workflow</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-09-26 12:50:06</sys_created_on>
+        <sys_id>35984b03c31321000096dfdc64d3aebf</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>kb_knowledge_base.workflow</sys_name>
+        <sys_package display_value="Knowledge Management Core" source="com.glideapp.knowledge">80a56e2b1b071010faa4fd9c0a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_35984b03c31321000096dfdc64d3aebf</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf22330000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_35984b03c31321000096dfdc64d3aebf</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:16</sys_created_on>
+        <sys_id>7bdfb77c1b00f410faa4fd9c0a4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:16</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf22320000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_35984b03c31321000096dfdc64d3aebf</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glideapp.knowledge</previous_claim_name>
+        <previous_claim_scope>com.glideapp.knowledge</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:16</sys_created_on>
+        <sys_id>3fdfb77c1b00f410faa4fd9c0a4bcb3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:16</sys_updated_on>
+    </sys_claim>
+</record_update>

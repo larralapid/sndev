@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-05 10:36:27</sys_created_on>
+        <sys_id>cc45b2c8872233002ba97f9719cb0b76</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>antivirus_activity.antivirus_viewer</sys_name>
+        <sys_package display_value="ServiceNow Antivirus Program" source="com.glide.snap">bdcaa2af1b471010faa4fd9c0a4bcbbf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_security_acl display_value="antivirus_activity">bacecc16873313009361c077f6cb0b30</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cc45b2c8872233002ba97f9719cb0b76</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:37</sys_updated_on>
+        <sys_user_role display_value="antivirus_viewer" name="antivirus_viewer">02052604872233002ba97f9719cb0bfa</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede8a040000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_cc45b2c8872233002ba97f9719cb0b76</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:37</sys_created_on>
+        <sys_id>1ebfff3c1b00f410faa4fd9c0a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:37</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede8a030000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_cc45b2c8872233002ba97f9719cb0b76</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.snap</previous_claim_name>
+        <previous_claim_scope>com.glide.snap</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:37</sys_created_on>
+        <sys_id>debfff3c1b00f410faa4fd9c0a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:37</sys_updated_on>
+    </sys_claim>
+</record_update>

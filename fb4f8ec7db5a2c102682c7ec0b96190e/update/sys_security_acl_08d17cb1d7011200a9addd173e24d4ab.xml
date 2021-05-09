@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>sp_admin required to access $spd.do</description>
+        <name>$spd</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-01-19 20:50:45</sys_created_on>
+        <sys_id>08d17cb1d7011200a9addd173e24d4ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>$spd</sys_name>
+        <sys_package display_value="Service Portal Designer" source="com.glide.service-portal.designer">01f8aae71b471010faa4fd9c0a4bcbb9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_08d17cb1d7011200a9addd173e24d4ab</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:33</sys_updated_on>
+        <type display_value="ui_page">ui_page</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede78d70000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_08d17cb1d7011200a9addd173e24d4ab</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:33</sys_created_on>
+        <sys_id>55bfbf3c1b00f410faa4fd9c0a4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:33</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede78d60000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_08d17cb1d7011200a9addd173e24d4ab</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.service-portal.designer</previous_claim_name>
+        <previous_claim_scope>com.glide.service-portal.designe</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:33</sys_created_on>
+        <sys_id>19bfbf3c1b00f410faa4fd9c0a4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:33</sys_updated_on>
+    </sys_claim>
+</record_update>
