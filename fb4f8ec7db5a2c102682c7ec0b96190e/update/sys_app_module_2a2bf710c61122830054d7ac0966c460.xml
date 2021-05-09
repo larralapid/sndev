@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Imports">2726398fc611228200419e747d1ce58f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image>images/icons/server.gif</image>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Remote Import</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>remote_import.do</query>
+        <report/>
+        <roles>maint</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2006-05-12 19:56:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>2a2bf710c61122830054d7ac0966c460</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Remote Import</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="System (glidesoft)" source="glidesoft">954a5e231b031010faa4fd9c0a4bcb27</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_app_module_2a2bf710c61122830054d7ac0966c460</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:04</sys_updated_on>
+        <timeline_page/>
+        <title>Remote Import</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edef3f50000001</claim_timestamp>
+        <metadata_update_name>sys_app_module_2a2bf710c61122830054d7ac0966c460</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:04</sys_created_on>
+        <sys_id>38df377c1b00f410faa4fd9c0a4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:04</sys_updated_on>
+    </sys_claim>
+</record_update>

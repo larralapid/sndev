@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 22:46:46</sys_created_on>
+        <sys_id>fdcbd5f4c32123002841b63b12d3aef4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_decision_input.*.personalize_decision_table_input</sys_name>
+        <sys_package display_value="Decision Tables" source="com.glide.decision_table">de0b62ef1b471010faa4fd9c0a4bcb22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_security_acl display_value="sys_decision_input.*">ea877437b3231300ed7fc9c316a8dc56</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fdcbd5f4c32123002841b63b12d3aef4</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:40</sys_updated_on>
+        <sys_user_role display_value="personalize_decision_table_input" name="personalize_decision_table_input">7b3bd1f4c32123002841b63b12d3ae57</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede93a60000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_fdcbd5f4c32123002841b63b12d3aef4</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:40</sys_created_on>
+        <sys_id>36bfff3c1b00f410faa4fd9c0a4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:40</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede93a40000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_fdcbd5f4c32123002841b63b12d3aef4</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.decision_table</previous_claim_name>
+        <previous_claim_scope>com.glide.decision_table</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:40</sys_created_on>
+        <sys_id>f6bfff3c1b00f410faa4fd9c0a4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:40</sys_updated_on>
+    </sys_claim>
+</record_update>

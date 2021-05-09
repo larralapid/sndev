@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>List of element types (comma-separated) that cannot be edited in the list editor:</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.list_edit_ignore_types</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2008-04-25 19:16:08</sys_created_on>
+        <sys_id>870298a70a0a0b3900bc57ec2a3462a3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>glide.ui.list_edit_ignore_types</sys_name>
+        <sys_package display_value="Editor for lists and related lists" source="com.glide.ui_list_edit">9f45aae71b071010faa4fd9c0a4bcbde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_properties_870298a70a0a0b3900bc57ec2a3462a3</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:26</sys_updated_on>
+        <type>string</type>
+        <value>html,document_id,conditions,template_value,glide_time,currency,price,user_image,video,field_list,domain_number,domain_path,glide_action_list,currency2,file_attachment</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=870298a70a0a0b3900bc57ec2a3462a3"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede5bf20000001</claim_timestamp>
+        <metadata_update_name>sys_properties_870298a70a0a0b3900bc57ec2a3462a3</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:25</sys_created_on>
+        <sys_id>9baf7f3c1b00f410faa4fd9c0a4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:25</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede5bf10000001</claim_timestamp>
+        <metadata_update_name>sys_properties_870298a70a0a0b3900bc57ec2a3462a3</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.ui_list_edit</previous_claim_name>
+        <previous_claim_scope>com.glide.ui_list_edit</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:26</sys_created_on>
+        <sys_id>5faf7f3c1b00f410faa4fd9c0a4bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:26</sys_updated_on>
+    </sys_claim>
+</record_update>

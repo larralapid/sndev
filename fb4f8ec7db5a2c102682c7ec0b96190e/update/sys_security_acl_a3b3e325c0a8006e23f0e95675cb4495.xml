@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>maint role can read sys_properties records.
+Anyone who has one of the record's read_roles (a comma-separated list) can, too.
+If (and only if) the record's read_roles is empty, admin role can also read.</description>
+        <name>sys_properties</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = false;
+if (gs.hasRole("maint")) { 
+    answer = true;
+} else if (! current.read_roles.nil()) {
+    answer = gs.hasRole(current.read_roles);
+} else {
+    if ( gs.hasRole("admin") )
+	    answer = true;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>dloo</sys_created_by>
+        <sys_created_on>2010-05-17 00:39:54</sys_created_on>
+        <sys_id>a3b3e325c0a8006e23f0e95675cb4495</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>sys_properties</sys_name>
+        <sys_package display_value="Security Jump Start (ACL Rules)" source="com.snc.system_security">99e66a6f1b071010faa4fd9c0a4bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_a3b3e325c0a8006e23f0e95675cb4495</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:20</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede46f20000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_a3b3e325c0a8006e23f0e95675cb4495</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:20</sys_created_on>
+        <sys_id>4aaf3f3c1b00f410faa4fd9c0a4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:20</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794ede46f10000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_a3b3e325c0a8006e23f0e95675cb4495</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.system_security</previous_claim_name>
+        <previous_claim_scope>com.snc.system_security</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:20</sys_created_on>
+        <sys_id>0eaf3f3c1b00f410faa4fd9c0a4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:20</sys_updated_on>
+    </sys_claim>
+</record_update>

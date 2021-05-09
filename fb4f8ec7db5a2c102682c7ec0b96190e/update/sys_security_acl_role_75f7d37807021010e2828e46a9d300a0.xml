@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-14 16:56:35</sys_created_on>
+        <sys_id>75f7d37807021010e2828e46a9d300a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>pdf_draft.nobody</sys_name>
+        <sys_package display_value="PDF Generator" source="com.snc.pdf_generator">96eb66a31b871010faa4fd9c0a4bcb8a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_security_acl display_value="pdf_draft">9df7d37807021010e2828e46a9d30091</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_75f7d37807021010e2828e46a9d300a0</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:04</sys_updated_on>
+        <sys_user_role display_value="nobody" name="nobody">b05940500a0a0aa70090a4893f6ff35d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edef3040000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_75f7d37807021010e2828e46a9d300a0</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:04</sys_created_on>
+        <sys_id>b0df377c1b00f410faa4fd9c0a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:04</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edef3030000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_75f7d37807021010e2828e46a9d300a0</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.pdf_generator</previous_claim_name>
+        <previous_claim_scope>com.snc.pdf_generator</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:04</sys_created_on>
+        <sys_id>74df377c1b00f410faa4fd9c0a4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:04</sys_updated_on>
+    </sys_claim>
+</record_update>

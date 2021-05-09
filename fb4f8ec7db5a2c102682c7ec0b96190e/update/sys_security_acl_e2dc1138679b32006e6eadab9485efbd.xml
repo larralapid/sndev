@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Hide "Process non-contractual SLAs" flag for 2010 SLA engine because this engine does not support it</description>
+        <name>ast_contract.process_non_contractual_slas</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = (gs.getProperty('com.snc.sla.engine.version','2010') != '2010');]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-09 10:11:51</sys_created_on>
+        <sys_id>e2dc1138679b32006e6eadab9485efbd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ast_contract.process_non_contractual_slas</sys_name>
+        <sys_package display_value="Service Level Management - Contract Management Integration" source="com.snc.sla.contract2">087c62271b871010faa4fd9c0a4bcb3e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_e2dc1138679b32006e6eadab9485efbd</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edebbf10000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_e2dc1138679b32006e6eadab9485efbd</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:50</sys_created_on>
+        <sys_id>99cf737c1b00f410faa4fd9c0a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edebbef0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_e2dc1138679b32006e6eadab9485efbd</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.sla.contract2</previous_claim_name>
+        <previous_claim_scope>com.snc.sla.contract2</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:50</sys_created_on>
+        <sys_id>5dcf737c1b00f410faa4fd9c0a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:50</sys_updated_on>
+    </sys_claim>
+</record_update>

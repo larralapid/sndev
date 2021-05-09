@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow read for records in awa_presence_state, for users with roles (awa_manager, awa_agent, awa_admin).</description>
+        <name>awa_presence_state</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-18 23:52:49</sys_created_on>
+        <sys_id>2ecbf84bb31313005baa6e5f26a8dca6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>awa_presence_state</sys_name>
+        <sys_package display_value="Advanced Work Assignment" source="com.glide.awa">bc06532b1b8f10100411bb751a4bcb71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+        <sys_update_name>sys_security_acl_2ecbf84bb31313005baa6e5f26a8dca6</sys_update_name>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:23</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf3dbf0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_2ecbf84bb31313005baa6e5f26a8dca6</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:23</sys_created_on>
+        <sys_id>69eff77c1b00f410faa4fd9c0a4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:23</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edf3dbe0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_2ecbf84bb31313005baa6e5f26a8dca6</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.glide.awa</previous_claim_name>
+        <previous_claim_scope>com.glide.awa</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:05:23</sys_created_on>
+        <sys_id>2deff77c1b00f410faa4fd9c0a4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:05:23</sys_updated_on>
+    </sys_claim>
+</record_update>

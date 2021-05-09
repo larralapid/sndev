@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="pa_dashboards_group" version="2" view="RPT3c2fdce6c7100300b0ea8b3c5c976386">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>c211bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>groups</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>4611bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>c611bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>role_override</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>4a11bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>roles</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>ca11bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>users</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>4e11bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>visible_to</element>
+            <list_id display_value="pa_dashboards_group" element="NULL" name="pa_dashboards_group" parent="NULL" relationship="NULL" sys_domain="global" view="589e26af1b871010faa4fd9c0a4bcb16">0a11bf701b8cb410faa4fd9c0a4bcb34</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_id>ce11bf701b8cb410faa4fd9c0a4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 01:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>pa_dashboards_group</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>larra</sys_created_by>
+            <sys_created_on>2021-05-09 01:00:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a11bf701b8cb410faa4fd9c0a4bcb34</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>pa_dashboards_group</sys_name>
+            <sys_package display_value="Performance Analytics" source="com.snc.pa">752a622f1b471010faa4fd9c0a4bcbda</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</sys_scope>
+            <sys_update_name>sys_ui_list_pa_dashboards_group_RPT3c2fdce6c7100300b0ea8b3c5c976386</sys_update_name>
+            <sys_updated_by>larra</sys_updated_by>
+            <sys_updated_on>2021-05-09 02:04:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt3c2fdce6c7100300b0ea8b3c5c976386" name="RPT3c2fdce6c7100300b0ea8b3c5c976386">589e26af1b871010faa4fd9c0a4bcb16</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edecf3a0000002</claim_timestamp>
+        <metadata_update_name>sys_ui_list_pa_dashboards_group_RPT3c2fdce6c7100300b0ea8b3c5c976386</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>devstuff</previous_claim_name>
+        <previous_claim_scope>fb4f8ec7db5a2c102682c7ec0b96190e</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:55</sys_created_on>
+        <sys_id>eecfb37c1b00f410faa4fd9c0a4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:55</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="devstuff">fb4f8ec7db5a2c102682c7ec0b96190e</claim_owner_scope>
+        <claim_timestamp>1794edecf3a0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_list_pa_dashboards_group_RPT3c2fdce6c7100300b0ea8b3c5c976386</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.pa</previous_claim_name>
+        <previous_claim_scope>com.snc.pa</previous_claim_scope>
+        <sys_created_by>larra</sys_created_by>
+        <sys_created_on>2021-05-09 02:04:55</sys_created_on>
+        <sys_id>a2cfb37c1b00f410faa4fd9c0a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larra</sys_updated_by>
+        <sys_updated_on>2021-05-09 02:04:55</sys_updated_on>
+    </sys_claim>
+</record_update>
